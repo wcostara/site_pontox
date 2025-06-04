@@ -1,0 +1,142 @@
+:root {
+    --primaryColor: #cc0000;
+    --secondColor: #8f8f8f;
+    --thirdColor: rgb(255, 255, 255);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+}
+
+html {
+    font-size: 35%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans SemiCondensed ExtraBold', sans-serif;
+    font-size: 16px;
+    background: var(--secondColor);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat Black', sans-serif;
+}
+
+h1 {
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    padding: 50px;
+    font-size: 3.5rem;
+}
+
+/* MENU */
+
+ul {
+    font-family: "Open Sans ExtraBold";
+    text-transform: uppercase;
+    list-style: none;
+}
+
+header nav ul {
+    display: flex;
+    gap: 2.4rem;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container ul li a {
+    display: block;
+    position: relative;
+    padding: 2rem;
+    color: var(--primaryColor);
+}
+
+.container ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: 1rem;
+    left: 30%;
+    width: 0;
+    height: 3px;
+    background: rgb(221, 0, 0);
+    transition: all 300ms ease-in-out;
+}
+
+.container ul li a:hover::after {
+    width: 50%;
+    left: 25%;
+}
+
+/* BODY */
+
+header {
+    top: 0;
+    width: 100%;
+    position: fixed;
+    padding: 5px;
+    background: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(196, 0, 0);
+    z-index: 1;
+}
+
+/* SECTIONS (SEÇÕES) */
+
+.section {
+    min-height: 100vh;
+    display: flex;
+    font-size: 3.2rem;
+    scroll-margin-top: 89px;
+}
+
+#inicio {       
+    background-color: var(--primaryColor);
+    margin-top: 89px;
+}
+
+#clientes {
+    background-color: var(--thirdColor);
+}
+
+#portfolio {
+    background-color: var(--primaryColor)
+}
+
+#servicos {
+    background-color: var(--thirdColor);
+}
+
+#contato {
+    background-color: var(--primaryColor);
+}
+
+#quemsomos {
+    background-color: var(--thirdColor);
+}
