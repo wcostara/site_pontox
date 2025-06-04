@@ -119,24 +119,30 @@ header {
 #inicio {       
     background-color: var(--primaryColor);
     margin-top: 89px;
+    color: var(--thirdColor);
 }
 
 #clientes {
     background-color: var(--thirdColor);
+    color: var(--primaryColor);
 }
 
 #portfolio {
-    background-color: var(--primaryColor)
+    background-color: var(--primaryColor);
+    color: var(--thirdColor);
 }
 
 #servicos {
     background-color: var(--thirdColor);
+    color: var(--primaryColor);
 }
 
 #contato {
     background-color: var(--primaryColor);
+    color: var(--thirdColor);
 }
 
 #quemsomos {
     background-color: var(--thirdColor);
+    color: var(--primaryColor);
 }
