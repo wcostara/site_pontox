@@ -34,6 +34,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat Black', sans-serif;
+    padding: 10px;
 }
 
 h1 {
@@ -42,7 +43,6 @@ h1 {
 }
 
 h2 {
-    padding: 50px;
     font-size: 3.5rem;
 }
 
@@ -113,12 +113,12 @@ header {
     min-height: 100vh;
     display: flex;
     font-size: 3.2rem;
-    scroll-margin-top: 89px;
+    scroll-margin-top: 88px;
 }
 
 #inicio {       
     background-color: var(--primaryColor);
-    margin-top: 89px;
+    margin-top: 88px;
     color: var(--thirdColor);
 }
 
