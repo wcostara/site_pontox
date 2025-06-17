@@ -46,6 +46,13 @@ h2 {
     font-size: 3.5rem;
 }
 
+.p1 {
+    font-size: 4rem;
+    text-transform: initial;
+    text-align: justify;
+    padding: 5%;
+}
+
 /* MENU */
 
 ul {
@@ -116,6 +123,10 @@ header {
     scroll-margin-top: 88px;
 }
 
+.map {
+    position: absolute;
+}
+
 #inicio {       
     background-color: var(--primaryColor);
     margin-top: 88px;
@@ -137,12 +148,12 @@ header {
     color: var(--primaryColor);
 }
 
-#contato {
+#sobrenos {
     background-color: var(--primaryColor);
     color: var(--thirdColor);
 }
 
-#quemsomos {
+#contato {
     background-color: var(--thirdColor);
     color: var(--primaryColor);
 }
